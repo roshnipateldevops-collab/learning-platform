@@ -5,7 +5,7 @@ from markupsafe import escape
 import psycopg2
 
 app = Flask(__name__)
-VERSION = "v1"
+VERSION = "v2"
 
 
 def get_conn():
